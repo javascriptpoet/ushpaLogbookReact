@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "object-path": {
+      "version": "0.11.1",
+      "resolved": "https://registry.npmjs.org/object-path/-/object-path-0.11.1.tgz",
+      "from": "object-path@0.11.1"
+    }
+  }
+}

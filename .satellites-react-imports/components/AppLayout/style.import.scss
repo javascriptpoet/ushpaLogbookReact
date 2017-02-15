@@ -1,0 +1,31 @@
+$sidebar-avatar-bg: #FA7252;
+:local(.brand) {
+    font-size: 50px;
+    line-height: 40px;
+}
+:local(.avatar) {
+    height: auto;
+    width:auto;
+    background: sidebar-avatar-bg;
+    img {
+        top: 17px;
+        position: relative;
+        display:inline-block;
+    }
+    span {
+        top: 23px;
+        fontSize: 16;
+        lineHeight: 1;
+        position: relative;
+        padding-left:10px;
+        display:inline-block;;
+    }
+}
+:local(.child) {
+    padding-top:100px;
+}
+:local(.rubixNavHeader) {
+    margin-left:0px !important
+}
+
+
