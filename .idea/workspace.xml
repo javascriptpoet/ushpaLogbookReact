@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768c24d7-dec0-4695-943e-7d69ca10f86b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/constructor.jsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/createApp$val/SelfBinder.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/createApp$val/createScope.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/createApp$val/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/createApp$val/localFiles.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/createApp$val/readme.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/meteor-admin" afterPath="$PROJECT_DIR$/packages/meteor-admin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ushpaLogbookReact.iml" afterPath="$PROJECT_DIR$/.idea/ushpaLogbookReact.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/defineApp$val/index.js" afterPath="$PROJECT_DIR$/imports/defineApp$val/index.js" />
     </list>
     <ignored path="ushpaLogbookReact.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,9 +40,11 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imports/defineApp$val/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="22">
+              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -835,12 +831,12 @@
       <workItem from="1487622631662" duration="3176000" />
       <workItem from="1487679173669" duration="40000" />
       <workItem from="1487700763740" duration="30440000" />
-      <workItem from="1487809852905" duration="2723000" />
+      <workItem from="1487809852905" duration="14189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142408000" />
+    <option name="totallyTimeSpent" value="153874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="726" extended-state="6" />
@@ -1245,9 +1241,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/defineApp$val/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="22">
+          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
