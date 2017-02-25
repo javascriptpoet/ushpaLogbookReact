@@ -2,9 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768c24d7-dec0-4695-943e-7d69ca10f86b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/meteor-admin" afterPath="$PROJECT_DIR$/packages/meteor-admin" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/actions/alert.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/actions/deleteAccount.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/actions/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/actions/logout.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/Alert.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/AppLayout/Footer.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/AppLayout/Header/DeleteAccountModal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/AppLayout/Header/actionCreators.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/AppLayout/Header/index.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/AppLayout/Header/reducers.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/AppLayout/MySidebar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/AppLayout/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/AppLayout/style.import.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/Avatar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/AvatarEditor.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/OneColGrid.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/RichTextEditor.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/Summernote.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/_gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/Home/Final.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/Home/HowItWorks.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/Home/Intro.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/Home/Ipad.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/Home/background-intro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/Home/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/Home/ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/Home/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/Home/style.import.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/Profile/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/components/screens/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/config/accounts.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/config/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/config/mui.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/config/settings/subjects.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/entry/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/entry/setup.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/methods/deleteAccount.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/methods/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/reducers/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/reducers/userInfo.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/routes.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/TAvatar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/TFullName.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/TNotes/TNote.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/TNotes/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/TProfile/TProfileFields.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/TProfile/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/TProfile/styles.imports.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/TRichTextEditor.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/TSummernote.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/collections/TUsers.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/collections/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.satellites-react-imports/schemas/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/SelfBinder.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/abstractionDefinition.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/createScope.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/createChildNode.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/makeScope.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/makeScopes.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/localModules.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/utils/Deep$v%var$exp%prop.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/utils/KeyList$v%func$exp%prop.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/utils/SelfBinder$v%func$exp%prop.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/utils/getClassDefinitionIndex$v%func$exp%prop.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/utils/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/utils/invoke$v%func$exp%prop.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/utils/keysToObj$v%func$exp%prop.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/defineApp$val/utils/tClass.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/meteor-admin" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/constructor.jsx" afterPath="$PROJECT_DIR$/imports/spiceTime/vanillaSpice/constructor.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/defineApp$val/index.js" afterPath="$PROJECT_DIR$/imports/defineApp$val/index.js" />
     </list>
     <ignored path="ushpaLogbookReact.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,23 +99,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="createScope.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createScope.jsx">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imports/defineApp$val/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+            <state relative-caret-position="262">
+              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -50,17 +112,39 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/index.js">
+        <entry file="file://$PROJECT_DIR$/imports/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="packages" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.meteor/packages">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="createChildNode.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/createChildNode.jsx">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/createChildNode.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
@@ -70,7 +154,7 @@
         </entry>
       </file>
       <file leaf-file-name="makeScopes.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/makeScopes.jsx">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/makeScopes.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
@@ -80,7 +164,7 @@
         </entry>
       </file>
       <file leaf-file-name="localModules.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/defineApp$val/localModules.jsx">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/localModules.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="14" column="110" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="110" />
@@ -92,7 +176,7 @@
         </entry>
       </file>
       <file leaf-file-name="constructor.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/constructor.jsx">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/constructor.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -102,7 +186,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/index.js">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
@@ -112,7 +196,7 @@
         </entry>
       </file>
       <file leaf-file-name="makeScope.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/makeScope.jsx">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/makeScope.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="65" />
@@ -178,6 +262,10 @@
         <option value="$PROJECT_DIR$/imports/defineApp$val/getSpiceNodeClass/index.js" />
         <option value="$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/index.js" />
         <option value="$PROJECT_DIR$/imports/defineApp$val/index.js" />
+        <option value="$PROJECT_DIR$/imports/buildApp/index.js" />
+        <option value="$PROJECT_DIR$/imports/defineApp/index.js" />
+        <option value="$PROJECT_DIR$/imports/spiceTime/index.js" />
+        <option value="$PROJECT_DIR$/imports/spiceTime/vanillaSpice/index.js" />
       </list>
     </option>
   </component>
@@ -227,7 +315,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,7 +346,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
+              <option name="myItemId" value="packages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,72 +360,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="defineApp$val" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ushpaLogbookReact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ushpaLogbookReact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="defineApp$val" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="createSpiceComponent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ushpaLogbookReact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ushpaLogbookReact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App$func" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ushpaLogbookReact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ushpaLogbookReact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".satellites-react-imports" />
+              <option name="myItemId" value=".meteor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -831,26 +861,28 @@
       <workItem from="1487622631662" duration="3176000" />
       <workItem from="1487679173669" duration="40000" />
       <workItem from="1487700763740" duration="30440000" />
-      <workItem from="1487809852905" duration="14189000" />
+      <workItem from="1487809852905" duration="19367000" />
+      <workItem from="1487886255750" duration="17932000" />
+      <workItem from="1487969690743" duration="19076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153874000" />
+    <option name="totallyTimeSpent" value="196060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="726" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32838285" sideWeight="0.4969697" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -885,13 +917,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imports/App$func/config$func/accounts$func.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/App$func/config$func/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1069,7 +1094,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/SelfBinder.jsx">
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/SelfBinder.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
@@ -1127,14 +1152,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/abstractionDefinition.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/abstractionDefinition.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="120">
@@ -1143,6 +1169,8 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/readme.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1151,8 +1179,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -1161,26 +1187,18 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createScope.jsx">
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/createScope.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/constructor.jsx">
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/constructor.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1188,7 +1206,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/index.js">
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
@@ -1196,7 +1214,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/localModules.jsx">
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/localModules.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="14" column="110" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="110" />
@@ -1206,7 +1224,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/makeScope.jsx">
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/makeScope.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="65" />
@@ -1214,7 +1232,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/makeScopes.jsx">
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/makeScopes.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
@@ -1222,7 +1240,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/protoMethods/createChildNode.jsx">
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/createChildNode.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
@@ -1231,21 +1249,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/defineApp$val/getChildSpiceNode/index.js" />
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/index.js">
+    <entry file="file://$PROJECT_DIR$/imports/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/defineApp$val/index.js">
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+        <state relative-caret-position="262">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/vanillaSpice/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

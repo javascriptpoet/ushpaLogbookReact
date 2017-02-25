@@ -30,6 +30,12 @@ so im free to be as terse in my code as spice allows me. Note that all the data 
 Its complete documentation spoken in javascript. And that, after the initial introduction is made thru file names and
 structure itself.
 All types are composed from other types in typeScope and refined in place.
+
+What is tick:
+its a click of a wrapper in this construct (...)=>(...)=>....
+This is not a complete example, its the simplest. In general, a tick unwraps the nest wrapper to receive the object created
+by the tick (create prop) and stub of the next tick that is filled in by invoking that stub and supplying the next wrapper.
+So, result of a tick is this shape {create:t.Any,tick:t.func(...)}
  */
 const t=require('tcomb-form');
 const _=require('meteor/underscore')._;
@@ -39,10 +45,7 @@ const externals={_,t,getUnwrapLocal,
     throwError:({msg})=>{throw new Meteor.Error('Scope error',msg)},
 };
 const utils=require('./utils')({externals});
-const {
-    //basicTypes are wrappers around tcomb types that expose internals as static props,e.g props and result of a t.func
-    basicTypes:{func,struct}
-}=utils;
+const {types:{clockedFunc,func,struct}}=utils;
 const localModules=require('./localModules')({externals,utils});
 
 /*you are witnessing birth of universe. from now on it will expand in spice and time building all its particles (funcs and vals)
@@ -66,63 +69,35 @@ before serving it to func. So is any data flow connection. That would be advance
 and bugs tremendously. my goal is three lines per app. always been from day one. that was the promise of meteor. they did great but
  need a bit of help. we are close.
  */
-//this will be declare('defineWrapperProps',struct({externals,typesScope,utils,createSpecialSpice})
-const defineWrapperProps=struct({
-    externals:t.Object,
-    typesScope:t.Object, //that could broke down to indicate inheritance from parent and it would get object.Create unlished on it
-    utils:t.Object, //utils folder from top scope. local utils can be reg modules and appear in scope
-    // in timeSpice it can be defined as derrivative of SpiceType#define and composed by spiceTime machinery thru a parametrized func
-    //that would be very terse and very descriptive. The whole code base can be gradually shrunk to a few terse descriptive statements
-    //thats what the power of spice is all about - clarity in/and style
-    createSpecialSpice:t.Function
-});
-const runTimeWrapperProps=struct({
-    elScope:t.Object
-});
-export default func(
-    ({props=struct({})})=>t.Any
-)
-export default func({
-    //the props that define SpiceType of the app plus a few app specific
-    props:struct({
-        //passed to all modules thru defineTime wrapper
-        externals:t.maybe(t.Object),
-        //webpack require func of the index file/top scope. all downscope require funcs in each scope are resolved relative
-        //to this require using spiceNode#path
-        require:t.func(t.String,t.Function), //this can be broken down granular to show what wrappers are expected out of mudules
-        define:t.maybe(func({//a func to declare and define types
-            //({typesScope,declare})=>undefined
-            props:struct({
-                typesScope:t.Object,
-                declare:t.Function //way too tedious to define types w/o spice powers. this whole mess will be a one liner
-            })
-        })),
-        //for func elements
-        //components can be accessed as getValue.defineWrapper.props or getValue.defineWrapper.runTimeWrapper.props
-        getValue:t.maybe(func(
-            ('defineWrapper',defineWrapperProps)=>('runTimeWrapper',runTimeWrapperProps)=>t.Any))
-    }),
-    result:t.Object //spiceNode which would be named in typeScope by the time spiceTime is built. e.g. result:createSpiceNode.result
-}).of(({
-    externals:appExternals,
-    require:appRequire,
-    define
-})=>{
-    const getUnwrap=({require,
-        wrapperProps={externals,utils,getUnwrap,
-            globals:{appExternals,appRequire}
-        }
-    })=>({module})=>require(`./${module}`)(getWrapperProps({wrapperProps:getWrapperProps({wrapperProps})}));
-    const unwrap=getUnwrap({require});
 
-    //dont get fooled. The iternal seed is not a child to anyone but cold eternal darkness indicated by empty parentToChild
-    //relationship. we get the seed spiceNode. What type? The basic VanillaSpiceComponent. If thats ok, just invoke its run()
-    //method and you are done.
-    //if some exotic spice is required from get go, you refine the type with refine(...) method. no type token is needed
-    //in module name. it has a name and no one above will be interested to know what else it presumes of itself
-    return unwrap({module:'getChildSpiceNode'})({
-        parentToChild:{}
+//an app might be blind up scope but it still wants to contribute its export to the callee like any other element.
+//we have to chain cos chrome does weird things with order of keys in an object. We need to fix the sequence.
+//the other way is to have an array of tick names and a dict of tick funcs. Thats just too verbose and off the subject.
+//the func below is single tick ticker. it is still ticked func but it creates just one tick using old school syntax.
+export default {
+    types:utils.types,
+    VanillaSpice:func({
+        globals:struct({
+            externals:t.Object,
+            require:t.Function
+        }),
+        defaultProps:{
+            externals:{}
+        },
+        result:tClass
+    }).of((globals)=>{
+        const getUnwrap=({require,
+            wrapperProps={externals,utils,getUnwrap,globals}
+        })=>({module})=>require(`./${module}`)(wrapperProps);
+        const unwrap=getUnwrap({require});
+
+        /*we are binding all spice nodes in the app to app globals on first tick
+        then, we are binding to parent node but here there is no one above
+        parent to child wrapper has a result of {class,getInstance} clas is VanillaSpice and getInstance gets an instance
+        of VanillaSpice
+        the next step is a func that instantiate instance of vanilla spice bound to app globals and parent
+        the receiver can refine this base spice into any exotic by SpiceType#refine
+         */
+        return unwrap({module:'vanillaSpice'})()({globals})({parentToChild:{}}).VanillaSpice
     })
-})
-
-
+}
