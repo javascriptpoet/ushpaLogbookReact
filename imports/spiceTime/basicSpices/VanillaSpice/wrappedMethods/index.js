@@ -1,0 +1,1 @@
+export default ({makeSTScope})=>({parentScope})=>makeSTScope({dirPath:'./basicSpices/VanillaSpice/wrappedMethods',parentScope})

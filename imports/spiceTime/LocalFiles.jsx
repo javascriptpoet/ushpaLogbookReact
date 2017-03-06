@@ -1,20 +1,23 @@
-/*this is the bootstrap func and that is why its outside utils, cos utils is using it
-for clarity sake, we separate bootstrap sequence into spacelike scopes.
-spiceTime will allow to contract that space into an efficient time dimension.
- */
-export default ({utils:{SelfBinder}})=>({require,path})=>new class extends SelfBinder{
-    constructor(){
+export default ({
+    utils:{SelfBinder},
+    externals:{_}
+})=>({rootRequire})=>class extends SelfBinder{
+    constructor({dirPath}){
         super();
         this.bindProtoMethods();
-        this.fileNames=require.context('./', false, /\.jsx$/).keys();
-        this.localRequire=(fileName)=>require(`./${path.join('/')}/${fileName}`)
+        this.localRequire=(fileName)=>rootRequire(`${dirPath}/${fileName}`);
+        this.fileNames=rootRequire.context(dirPath, false, /\.jsx$/).keys();
     };
-    makeScope({parentScope={},handleModule}){
+    makeScope({handleModule,parentScope,locals={}}){
         const {reduce}=this;
-        return reduce({
-            reduceFile:({reducing:currentScope,fileName,require})=>handleModule({currentScope,fileName,require}),
-            initValue:Object.create(parentScope)
-        })
+        return reduce((({
+            reducing:currentScope,
+            fileName,
+            require
+        })=>Object.assign(
+            currentScope,
+            handleModule({fileName,require}) || {}
+        )),Object.create(parentScope,locals))
     };
     reduce(reduceFile,initValue){
         const {localRequire:require,fileNames}=this;
@@ -38,3 +41,4 @@ export default ({utils:{SelfBinder}})=>({require,path})=>new class extends SelfB
         }),{})
     };
 }
+

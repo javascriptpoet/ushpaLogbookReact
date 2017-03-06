@@ -1,5 +1,5 @@
-//The ugliness is due to bootstrapping issues. The nice syntax we creating is not there yet. This is what the fight is about.
-//We are patching up a simplified implementation to use that nice syntax downstream, at least some of it.
-export default ({externals})=>require('./../locals')({externals})()({require,
-    unwrapProps:{externals}
-}).els;
+export default ({externals})=>{
+    const unwrap=(strPath)=>require(strPath)({externals,unwrap,LocalFiles});
+    const LocalFiles=unwrap('./getLocalFiles')({rootRequire:require});
+    return LocalFiles.toObj({getValue:({fileName,require})=>require(`./${fileName}`)})
+}
