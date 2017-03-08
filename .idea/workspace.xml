@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768c24d7-dec0-4695-943e-7d69ca10f86b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getFlavor.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/spiceTime/basicSpices/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/spiceTime/declareSpice.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/spiceTime/makeElScope.jsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/SelfBinder.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/abstractionDefinition.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/createScope.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/localModules.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/utils/Deep$v%var$exp%prop.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/utils/KeyList$v%func$exp%prop.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/utils/SelfBinder$v%func$exp%prop.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/utils/getClassDefinitionIndex$v%func$exp%prop.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/utils/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/utils/invoke$v%func$exp%prop.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/utils/keysToObj$v%func$exp%prop.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/utils/tClass.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/vanillaSpice/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/createChildNode.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/makeScope.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/vanillaSpice/protoMethods/makeScopes.jsx" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/spiceTime/vanillaSpice/constructor.jsx" afterPath="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/constructor.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/defineSpice.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/declareSpice.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getSpiceName.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getTicks.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/spiceTime/utils/capitalizeFirst.jsx" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getTimeline.jsx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/constructor.jsx" afterPath="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/constructor.jsx" />
     </list>
     <ignored path="ushpaLogbookReact.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,31 +30,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelfBinder$v%func$exp%prop.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/spiceTime/utils/SelfBinder$v%func$exp%prop.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constructor.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="constructor.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/constructor.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-533">
-              <caret line="0" column="104" selection-start-line="0" selection-start-column="104" selection-end-line="0" selection-end-column="104" />
+            <state relative-caret-position="165">
+              <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getSpiceName.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getSpiceName.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="declareTick.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/declareTick.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="declareSpice.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/declareSpice.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defineSpice.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/defineSpice.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="capitalizeFirst.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/utils/capitalizeFirst.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalFiles.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/spiceTime/LocalFiles.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -81,7 +109,7 @@
       <file leaf-file-name="getFlavor.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getFlavor.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="15">
               <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -90,20 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getTimeline.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getTimeline.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="104" selection-start-line="4" selection-start-column="104" selection-end-line="4" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="declareEl.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/declareEl.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="120">
               <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -112,45 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createChildNode.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/createChildNode.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="set.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/set.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="throwError.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/throwError.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="105" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
+              <caret line="0" column="127" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -169,12 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/imports/defineApp$val/SpiceComponent/index.js" />
-        <option value="$PROJECT_DIR$/imports/defineApp$val/getChildSpiceNode/index.js" />
-        <option value="$PROJECT_DIR$/imports/defineApp$val/SpiceNode/index.js" />
-        <option value="$PROJECT_DIR$/imports/defineApp$val/getSpiceNodeClass/index.js" />
-        <option value="$PROJECT_DIR$/imports/defineApp$val/createSpiceComponent/index.js" />
-        <option value="$PROJECT_DIR$/imports/defineApp$val/index.js" />
         <option value="$PROJECT_DIR$/imports/buildApp/index.js" />
         <option value="$PROJECT_DIR$/imports/defineApp/index.js" />
         <option value="$PROJECT_DIR$/imports/spiceTime/vanillaSpice/index.js" />
@@ -219,7 +197,13 @@
         <option value="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/index.js" />
         <option value="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/createChildNode.jsx" />
         <option value="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getFlavor.jsx" />
+        <option value="$PROJECT_DIR$/imports/spiceTime/utils/capitalizeFirst.jsx" />
+        <option value="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/declareTick.jsx" />
+        <option value="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/addTick.jsx" />
+        <option value="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getSpiceName.jsx" />
+        <option value="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/declareSpice.jsx" />
         <option value="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/constructor.jsx" />
+        <option value="$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/defineSpice.jsx" />
       </list>
     </option>
   </component>
@@ -276,8 +260,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -422,7 +407,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -932,16 +916,19 @@
       <workItem from="1488582346753" duration="648000" />
       <workItem from="1488588027464" duration="15552000" />
       <workItem from="1488655210803" duration="27623000" />
-      <workItem from="1488720308223" duration="40110000" />
+      <workItem from="1488720308223" duration="40875000" />
+      <workItem from="1488813442403" duration="30252000" />
+      <workItem from="1488924218411" duration="7951000" />
+      <workItem from="1488937803787" duration="11140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376056000" />
+    <option name="totallyTimeSpent" value="426164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="726" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -960,8 +947,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -986,36 +973,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imports/spiceTime/SelfBinder.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/App$func/entry/index.js" />
-    <entry file="file://$PROJECT_DIR$/imports/App$func/entry/setup.jsx" />
-    <entry file="file://$PROJECT_DIR$/imports/App$func/createStore$func.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/App$func/ssrEntry$func/historyHook$func.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/App$func/ssrEntry$func/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/utils$struct/T/T$export.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-637">
@@ -1151,7 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1168,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,7 +1131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,9 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <marker date="1488692744361" expanded="true" signature="62:829" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,31 +1146,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/val.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/val.jsx" />
     <entry file="file://$PROJECT_DIR$/imports/spiceTime/utils/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="86" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/spiceTime/LocalFiles.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,7 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,51 +1175,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/protoMethods/initEl.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/protoMethods/initEl.jsx" />
     <entry file="file://$PROJECT_DIR$/imports/spiceTime/utils/SelfBinder$v%func$exp%prop.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getTimeline.jsx">
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getTickNames.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="104" selection-start-line="4" selection-start-column="104" selection-end-line="4" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="105" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/set.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="30">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,7 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,23 +1211,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/createChildNode.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="210">
           <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getTicks.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getSpiceName.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/utils/capitalizeFirst.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/LocalFiles.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/getFlavor.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="15">
           <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -1328,10 +1263,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="127" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/declareEl.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="120">
           <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/declareSpice.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1340,9 +1293,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/constructor.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-533">
-          <caret line="0" column="104" selection-start-line="0" selection-start-column="104" selection-end-line="0" selection-end-column="104" />
+        <state relative-caret-position="165">
+          <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/wrappedMethods/declareTick.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/spiceTime/basicSpices/VanillaSpice/defineSpice.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
